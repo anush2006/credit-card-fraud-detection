@@ -1,0 +1,38 @@
+The aim of this project to master the basics of Machine Learning by implementing the project "CREDIT CARD FRAUD DETECTION"
+
+The 5 stages of the project determined is:
+
+1. Problem Definition & ML Framing
+
+What task is this?
+Supervised or Unsupervised?
+What matters most?
+(Recall > precision)
+
+2.EDA (Exploratory Data Analysis)
+
+1. Understand data structure
+2. Detect imbalance
+3. See patterns (scatter, PCA, boxplots)
+4. Basic insights
+
+3. Data Preparation / Preprocessing
+
+1. Train-test split (stratified)
+2. Scaling (SVM/Other models need it)
+3. Feature engineering (log transforms, PCA optional)
+4. Class balancing or class weighting
+
+4. Model Training & Hyperparameter Tuning
+
+1. Picking algorithms
+2. Training baseline
+3. Tuning C, gamma, depth, trees, learning rate etc.
+4. Comparing performance
+
+5.Evaluation, Interpretation, & Model Selection
+
+1. Metrics 
+2. Trade-off reasoning
+3. Business choice vs raw scores
+4. Documenting why a model was chosen
