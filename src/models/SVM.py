@@ -1,10 +1,12 @@
 import pandas as pd
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
+from config import DATASETS_DIR
 print("Loading dataset...")
-df = pd.read_csv('archive/creditcard.csv')
+df = pd.read_csv(os.path.join(DATASETS_DIR, "creditcard.csv"))
 print("Dataset loaded successfully.")
 """Seperate the features and end target"""
 X=df.drop("Class",axis=1)

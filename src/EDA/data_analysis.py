@@ -3,9 +3,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+from config import DATASETS_DIR
+import os
 """Load the credit card fraud detection dataset.
 """
-df = pd.read_csv("archive/creditcard.csv")
+df = pd.read_csv(os.path.join(DATASETS_DIR, "creditcard.csv"))
 
 """
 Find the number of rows and columns in the dataset.
